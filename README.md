@@ -117,3 +117,15 @@ forge script script/Withdraw.s.sol:Withdraw --slow --multi --broadcast --skip-si
 Note that the `--skip-simulation` flag is required due to usage of custom Arb OpCodes in ArbSys.
 
 The message can be relayed manually to L1 using [this Arbitrum tool](https://retryable-dashboard.arbitrum.io/).
+
+## Audits
+
+Audit reports are hosted on the auditors' public portfolio pages:
+
+| Auditor | Report | Date |
+| --- | --- | --- |
+| Cantina | [MakerDAO Arbitrum Token Bridge Audit](https://cantina.xyz/portfolio/9c94d251-1034-44f3-8c82-7d34a10b11d0) | 2024-10-15 |
+| ChainSecurity | [Arbitrum Token Bridge](https://www.chainsecurity.com/security-audit/makerdao-arbitrum-token-bridge/) | 2024-10-09 |
+| Cantina | [Arbitrum Token Bridge](https://cantina.xyz/portfolio/e78d74a1-29af-49f8-9674-990eaeb6c9f2) | 2024-06-28 |
+
+ChainSecurity reports are cumulative: each portfolio page hosts the latest version of the report, which covers all previously reviewed versions.
